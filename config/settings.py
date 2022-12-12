@@ -52,6 +52,8 @@ INSTALLED_APPS = [
     'apps.customer',
     'apps.type',
     'apps.user',
+    'apps.video',
+    'apps.worker',
 ]
 
 CORS_ALLOWED_ORIGINS = [

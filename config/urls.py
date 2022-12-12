@@ -43,6 +43,8 @@ urlpatterns += [
     path('customer/', include('apps.customer.api.urls')),
     path('user/', include('apps.user.api.urls')),
     path('type/', include('apps.type.api.urls')),
+    path('video/', include('apps.video.api.urls')),
+    path('worker/', include('apps.worker.api.urls')),
 ]
 
 if settings.DEBUG:
