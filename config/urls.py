@@ -18,7 +18,7 @@ schema_view = get_schema_view(
         default_version='v1',
         description="Flowers shop official site description",
         terms_of_service="https://www.google.com/policies/terms/",
-        contact=openapi.Contact(email="contact@snippets.local"),
+        contact=openapi.Contact(email="samandarboriyev2005@gmail.com"),
         license=openapi.License(name="BSD License"),
     ),
     public=True,
